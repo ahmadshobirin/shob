@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2eb86a8c2db10f22a0a90e6c8bd81e4e",
+    "content-hash": "3eeddda2e319a09b246a2c31f9ad4637",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -502,6 +502,53 @@
                 "laravel"
             ],
             "time": "2020-09-07T11:48:52+00:00"
+        },
+        {
+            "name": "garygreen/pretty-routes",
+            "version": "1.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/garygreen/pretty-routes.git",
+                "reference": "ebd9e2328bc213f3c413d4ec7e3aef53801d1646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/garygreen/pretty-routes/zipball/ebd9e2328bc213f3c413d4ec7e3aef53801d1646",
+                "reference": "ebd9e2328bc213f3c413d4ec7e3aef53801d1646",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.*|6.*|7.*|8.*"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "PrettyRoutes\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PrettyRoutes\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gary Green",
+                    "email": "holegary@gmail.com"
+                }
+            ],
+            "description": "Pretty routes for Laravel 5+",
+            "support": {
+                "issues": "https://github.com/garygreen/pretty-routes/issues",
+                "source": "https://github.com/garygreen/pretty-routes/tree/1.0.10"
+            },
+            "time": "2020-09-11T03:13:41+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -6815,5 +6862,5 @@
         "php": "^7.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
